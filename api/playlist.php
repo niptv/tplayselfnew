@@ -1,9 +1,9 @@
 <?php
 header("Cache-Control: max-age=84000, public");
 header('Content-Type: audio/x-mpegurl');
-header('Content-Disposition: attachment; filename="playlist.m3u"');
+header('Content-Disposition: attachment; filename="tvtelugutp.m3u"');
 function getAllChannelInfo(): array {
-    $json = @file_get_contents('https://raw.githubusercontent.com/ttoor5/tataplay_urls/main/origin.json');
+    $json = @file_get_contents('https://raw.githubusercontent.com/tvtelugu/tplayself/main/tplay.json');
     if ($json === false) {
         header("HTTP/1.1 500 Internal Server Error");
         exit;
