@@ -215,6 +215,17 @@ https://prod-sports-hin-fa.jiocinema.com/bpk-tv/News18_MP_Chhattisgarh_voot_MOB/
 https://prod-sports-hin-fa.jiocinema.com/bpk-tv/News18_UP_Uttarakhand_voot_MOB/Fallback/index.m3u8
 #EXTINF:-1 tvg-id="694" group-title="News" tvg-language="Urdu" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Urdu.png",News18 JKLH
 https://prod-sports-hin-fa.jiocinema.com/bpk-tv/News18_Urdu_voot_MOB/Fallback/index.m3u8
+
+#EXTINF:-1,The Woman in Black 2: Angel of Death (2014)
+http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/175011.mp4
+#EXTINF:-1,The Woman in Red (1984)
+http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/175012.mkv
+#EXTINF:-1,The Woman in the Window (2021)
+http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/175013.mkv
+#EXTINF:-1,The Wood (1999)
+http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/175014.mp4
+#EXTINF:-1,The Woods (2006)
+http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/175015.mkv
 EOT;
 echo $m3u8PlaylistFile . $additionalEntries;
 ?>
