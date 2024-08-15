@@ -216,16 +216,20 @@ https://prod-sports-hin-fa.jiocinema.com/bpk-tv/News18_UP_Uttarakhand_voot_MOB/F
 #EXTINF:-1 tvg-id="694" group-title="News" tvg-language="Urdu" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Urdu.png",News18 JKLH
 https://prod-sports-hin-fa.jiocinema.com/bpk-tv/News18_Urdu_voot_MOB/Fallback/index.m3u8
 
-#EXTINF:-1,The Woman in Black 2: Angel of Death (2014)
-http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/175011.mp4
-#EXTINF:-1,The Woman in Red (1984)
-http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/175012.mkv
-#EXTINF:-1,The Woman in the Window (2021)
-http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/175013.mkv
-#EXTINF:-1,The Wood (1999)
-http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/175014.mp4
-#EXTINF:-1,The Woods (2006)
-http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/175015.mkv
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOGFkYTk5NTEtMTk0Zi00YTNiLTkwYzMtY2Y0NzZjNTM1MzlkXkEyXkFqcGdeQXVyMTMzODk3NDU0._V1_.jpg",Three Thousand Years of Longing (2022)
+http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/380764.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDcxOWFhMWYtM2RhNC00ZGZhLTlhZTgtODNiNTc5NjY5ZmQ0XkEyXkFqcGc@.jpg",Veeranjaneyulu Vihara Yatra (2024)
+http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/380768.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNjY1NTY1ZDctZjg2MS00MjMzLTk2MDAtMjk0OWZmZDFjMTEyXkEyXkFqcGc@._V1_.jpg",OMG: O Manchi Ghost (2024)
+http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/380769.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZTRkNjAyYzctOGE2ZS00ZDM2LWJjOGEtN2JlNTJlNDUyNTU5XkEyXkFqcGdeQXVyMTU1OTk0ODA1..jpg",EVOL (2024)
+http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/380788.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZWQ1N2E1NzEtMzUwNi00MzBlLTg3ZjgtNjRlMTQyMDQxMTdhXkEyXkFqcGdeQXVyMTUzOTcyODA5._V1_.jpg",Life Is Beautiful (2022)
+http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/380107.mp4
+#EXTINF:-1 tvg-logo="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/drill-et00387022-1707720016.jpg",Drill (2024)
+http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/380117.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNjMzYjc1MGMtNGY0Yi00YWQ1LTk1MDMtZWY0YTE3MmJkNDhmXkEyXkFqcGc@._V1_.jpg",RapeD  (2024)
+http://starshare.live:8080/movie/rvdgdf7647564/bvchgfd235454/380121.mp4
 EOT;
 echo $m3u8PlaylistFile . $additionalEntries;
 ?>
