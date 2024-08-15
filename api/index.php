@@ -27,7 +27,7 @@ function extractPsshFromManifest(string $content, string $baseUrl): ?array {
                     $media = str_replace(['$RepresentationID$', '$Number$'], [(string)$rep['id'], (int)($template['startNumber'] ?? 0) + (int)($template->SegmentTimeline->S['r'] ?? 0)], $template['media']);
                     $url = "$baseUrl/dash/$media";
                     $context = stream_context_create([
-                        'http' => ['method' => 'GET', 'header' => 'X-Forwarded-For: 59.178.72.184'],
+                        'http' => ['method' => 'GET', 'header' => 'X-Forwarded-For: 59.178.72.185'],
                     ]);
                     if (($content = @file_get_contents($url, false, $context)) !== false) {
                         $hex = bin2hex($content);
