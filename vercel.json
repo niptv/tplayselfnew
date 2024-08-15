@@ -8,22 +8,28 @@
     {
       "src": "/(.*)\\.mpd",
       "dest": "/api/index.php?id=$1",
+      "methods": ["GET", "POST"],
       "headers": {
-        "Cache-Control": "max-age=20, public"
+        "Cache-Control": "max-age=20, public",
+        "Authorization": "Basic YWRtaW46cGFzc3dvcmQ="
       }
     },
     {
       "src": "/(.*)\\.m3u8",
       "dest": "/api/index.php?id=$1",
+      "methods": ["GET", "POST"],
       "headers": {
-        "Cache-Control": "max-age=20, public"
+        "Cache-Control": "max-age=20, public",
+        "Authorization": "Basic YWRtaW46cGFzc3dvcmQ="
       }
     },
     {
       "src": "/",
       "dest": "/api/playlist.php",
+      "methods": ["GET", "POST"],
       "headers": {
-        "Cache-Control": "max-age=84000, public"
+        "Cache-Control": "max-age=84000, public",
+        "Authorization": "Basic YWRtaW46cGFzc3dvcmQ="
       }
     }
   ]
